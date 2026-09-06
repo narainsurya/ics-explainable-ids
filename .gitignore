@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Datasets (Crucial: Keep these out of version control)
+data/raw/*
+data/processed/*
+!data/README.md
+
+# Saved Models & Scalers
+models/saved/*
+
+# OS generated files
+.DS_Store
+Thumbs.db
